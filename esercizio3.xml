@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--ES3 -->
+<text>
+    il primo xml con validazione
+    <testo> </testo> <!-- aggiunto figlio dell'elemento text-->
+    <fratello> </fratello> <!-- aggiunto fratello all'elemento figlio testo-->
+
+<text/> <!-- Errore nella posizione di questo elemento, perchè dopo il body non ci possono
+essere altri elementi -->
+</text>
