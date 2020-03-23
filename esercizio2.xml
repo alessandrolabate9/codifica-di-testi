@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- ES2: Scrivere e fare il check di un xml non opportunamente annidato-->
+
+<body>
+
+<elemento> ... <cifra> ... <testo> </cifra> </testo> </elemento>
+</body>
