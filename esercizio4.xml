@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- ES4: inserire all'interno di un tag un frammento di codice HTML-->
 
 <root>
-<!-- ES: inserire all'interno di un tag un frammento di codice HTML-->
     <content>
         <htmlCode>  
             <![CDATA[
-        <p> prova <b>esercizio</b> 123  </p>
-            ]]>
+        <p> prova <b>esercizio</b> 123  </p> 
+            ]]> <!-- qui è contenuto il frammento di codice html ignorato dal parser-->
         </htmlCode>
     </content>
     
