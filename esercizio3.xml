@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--ES3 -->
+<!--
+studente: ALESSANDRO LABATE 
+matricola: 546342
+corso: codifica di testi 2019-20
+-->
 <text>
     il primo xml con validazione
     <testo> </testo> <!-- aggiunto figlio dell'elemento text-->
