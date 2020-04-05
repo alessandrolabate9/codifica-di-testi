@@ -8,5 +8,5 @@
     <facsimile source="google">
     carattere due
     </facsimile>
-    <testo id="ct"> <seg>carattere tre</seg> </testo>
+    <testo id="identificatore_testo"> <seg>carattere tre</seg> </testo>
 </TEI>
