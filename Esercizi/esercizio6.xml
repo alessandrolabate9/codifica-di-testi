@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE TEI SYSTEM "./esercizio6.dtd">
+
+<TEI>
+    <header type="intestazione">
+    carattere esempio
+    </header>
+    <facsimile source="google">
+    carattere due
+    </facsimile>
+    <testo id="ct"> <seg>carattere tre</seg> </testo>
+</TEI>
