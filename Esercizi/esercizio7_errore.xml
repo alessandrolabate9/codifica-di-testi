@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text>
+    <titolo>il Circolo Pickwick</titolo>
+    <capitolo id="2">
+        <pag>Quel servo fedele di ogni lavoro, che è il sole, 
+        s'eraappunto levato ed avea incominciato a spandere la sualuce   sul   tredicesimo   giorno   di   maggio   milleottocento-ventisette,   quando   il   signor   Samuele   Pickwick 
+        <pag> <!--ERRORE: conflitto e disallineamento tra i tag di apertura e chiusura. Il tag di chiusura dovrebbe essere inserito prima-->
+        </pag> 
+    </capitolo>
+        quando   il   signor   Samuele   Pickwick   sorsecome un altro sole dai suoi riposi;
+        e spalancata che ebbela   finestra   di  camera   sua,   gettò   uno   sguardo   collettivosul mondo sottoposto
+        </pag>
+</text>
