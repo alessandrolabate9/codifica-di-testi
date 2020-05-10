@@ -18,6 +18,14 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <encodingDesc>
+        <schemaSpec ident="MyCustomization">
+            <moduleRef key="tei"/>
+            <moduleRef key="header"/>
+            <moduleRef key="textstructure"/>
+            <moduleRef key="core"/>
+        </schemaSpec>
+    </encodingDesc>
     <text xml:lang="en">
 <!--ESERCIZIO PAG. 73-117: Marcare un testo plain text di circa 3000 caratteri a
 piacere.-->
