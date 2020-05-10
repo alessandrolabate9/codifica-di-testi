@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Grazia Deledda, Vita e Opere</title>
+                <respStmt>
+                    <resp>compiled by</resp>
+                    <name>Alessandro Labate</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Project Gutenberg</distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Grazia Deledda, Vita e Opere</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="it">
+        <front>
+                <p>    
+                    <name>Grazia Deledda</name> nasce a <rs type="place">Nuoro</rs> il <date>27 settembre 1871</date>. Frequenta solo le scuole elementari, ma l’ambiente familiare nel quale cresce le consente 
+                    di studiare l’italiano, il francese e di coltivare i suoi interessi per la cultura. Appassionata lettrice, da giovane inizia a scrivere racconti. 
+                    Quando si parla di <rs type="person">Deledda</rs>, il collegamento più immediato è quasi sempre con <ptr target="#CV">Canne al vento</ptr>, pubblicato per la prima volta nel <num>1913</num>.
+                    È considerato la sua opera più celebre ed è di certo il romanzo che racchiude in sé tutti i temi che hanno caratterizzato l’opera della scrittrice.
+                    <list type="simple">
+                        <head>Di seguito vi proponiamo la classifica dei cinque libri che hanno riscosso maggior successo tra il pubblico.</head>
+                            <item>Canne al Vento</item>
+                            <item>La madre</item>
+                            <item>La via del male</item>
+                            <item>Cenere</item>
+                            <item>Elias Portolu</item>
+                    </list>
+                </p>
+        </front>
+        <body xml:id="CV">
+                <p>Tutto il giorno <name>Efix</name>, il servo delle dame <name>Pintor</name>, aveva lavorato a rinforzare l'argine primitivo
+                da lui stesso costruito un po' per volta a furia d'anni e di fatica, giù in fondo al <distinct>poderetto</distinct>
+                lungo il fiume: e al cader della sera contemplava la sua opera dall'alto, seduto davanti alla
+                capanna sotto il ciglione glauco di canne a mezza costa sulla bianca <emph>Collina dei Colombi</emph>.
+                Eccolo tutto ai suoi piedi, silenzioso e qua e là scintillante d'acque nel crepuscolo, il
+                poderetto che <name>Efix</name> considerava più suo che delle sue padrone: trent'anni di possesso e di
+                lavoro lo han fatto ben suo, e le siepi di fichi d'India che lo chiudono dall'alto in basso come
+                due muri grigi serpeggianti di scaglione in scaglione dalla collina al fiume, gli sembrano i
+                confini del mondo.[...]<pb n="1"/></p>
+                <p>Il passo non s'udiva più: <name>Efix</name> tuttavia rimase ancora là, immobile ad aspettare.
+                La luna saliva davanti a lui, e le voci della sera avvertivano l'uomo che la sua giornata era
+                finita. Era il grido cadenzato del cuculo, il <distinct>zirlio</distinct> dei grilli precoci, qualche gemito d'uccello;
+                era il sospiro delle canne e la voce sempre più chiara del fiume: ma era soprattutto un
+                soffio, un <distinct>ansito</distinct> misterioso che pareva uscire dalla terra stessa; sì, la giornata dell'uomo
+                lavoratore era finita, ma cominciava la vita fantastica dei folletti, delle fate, degli spiriti
+                erranti. I fantasmi degli antichi Baroni scendevano dalle rovine del castello sopra il paese di
+                Galte, su, all'orizzonte a sinistra di Efix, e percorrevano le sponde del fiume alla caccia dei
+                cinghiali e delle volpi: le loro armi scintillavano in mezzo ai bassi ontani della riva, e
+                l'abbaiar fioco dei cani in lontananza indicava il loro passaggio.[...]
+                </p>
+                <p>Era il suo passaggio che destava lo scintillio dei rami e delle pietre sotto la luna: e agli
+                spiriti maligni si univano quelli dei bambini non battezzati, spiriti bianchi che volavano per
+                aria tramutandosi nelle nuvolette argentee dietro la luna: e i nani e le <foreign>janas</foreign>, piccole fate che
+                durante la giornata stanno nelle loro case di roccia a tesser stoffe d'oro in telai d'oro,
+                ballavano all'ombra delle grandi macchie di <term xml:id="pla1">filirèa</term>, mentre i giganti s'affacciavano fra le
+                rocce dei monti battuti dalla luna, tenendo per la briglia gli enormi cavalli verdi che essi
+                soltanto sanno montare, spiando se laggiù fra le distese d'<term xml:id="pla2">euforbia</term> malefica si nascondeva
+                qualche drago o se il leggendario serpente cananèa, vivente fin dai tempi di Cristo,
+                strisciava sulle sabbie intorno alla palude.[...]<pb n="2"/>
+                </p>
+        </body>
+        <back>
+            <gloss target="#pla1">
+                La <foreign>Phillyrea</foreign> è una pianta legnosa che può raggiungere in alcune specie l'altezza di 6–7 m (piccolo albero).
+                Le foglie sono semplici, opposte, sempreverdi.
+            </gloss>
+            <gloss target="#pla2">
+                genere di piante erbacee o legnose, ricche di lattice e con infiorescenze particolari dette <distinct>ciazi</distinct>
+            </gloss>
+        </back>
+    </text>
+</TEI>
