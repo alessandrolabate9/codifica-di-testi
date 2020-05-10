@@ -19,6 +19,8 @@
         </fileDesc>
     </teiHeader>
     <text xml:lang="it">
+<!--ESERCIZIO PAG. 141: Marcare un testo a piacere e utilizzare puntatori, note, lista, glossario marcare nomi, rs,
+term.-->
         <front>
                 <p>    
                     <name>Grazia Deledda</name> nasce a <rs type="place">Nuoro</rs> il <date>27 settembre 1871</date>. Frequenta solo le scuole elementari, ma l’ambiente familiare nel quale cresce le consente 
