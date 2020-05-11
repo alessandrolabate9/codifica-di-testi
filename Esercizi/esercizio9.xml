@@ -11,7 +11,7 @@
                 </respStmt>
             </titleStmt>
             <publicationStmt>
-                <distributor>Blog</distributor>
+                <distributor>Project Gutenberg</distributor>
             </publicationStmt>
             <sourceDesc>
                 <bibl>Grazia Deledda, Vita e Opere</bibl>
@@ -25,7 +25,7 @@ term.-->
                 <p>    
                     <name>Grazia Deledda</name> nasce a <rs type="place">Nuoro</rs> il <date>27 settembre 1871</date>. Frequenta solo le scuole elementari, ma l’ambiente familiare nel quale cresce le consente 
                     di studiare l’italiano, il francese e di coltivare i suoi interessi per la cultura. Appassionata lettrice, da giovane inizia a scrivere racconti. 
-                    Quando si parla di <rs type="person">Deledda</rs>, il collegamento più immediato è quasi sempre con <ptr target="#CV">Canne al vento</ptr>, pubblicato per la prima volta nel <num>1913</num>.
+                    Quando si parla di <rs type="person">Deledda</rs>, il collegamento più immediato è quasi sempre con Canne al vento<ptr target="#CV"/>, pubblicato per la prima volta nel <num>1913</num>.
                     È considerato la sua opera più celebre ed è di certo il romanzo che racchiude in sé tutti i temi che hanno caratterizzato l’opera della scrittrice.
                     <list type="simple">
                         <head>Di seguito vi proponiamo la classifica dei cinque libri che hanno riscosso maggior successo tra il pubblico.</head>
@@ -70,6 +70,7 @@ term.-->
                 </p>
         </body>
         <back>
+            <p>
             <gloss target="#pla1">
                 La <foreign>Phillyrea</foreign> è una pianta legnosa che può raggiungere in alcune specie l'altezza di 6–7 m (piccolo albero).
                 Le foglie sono semplici, opposte, sempreverdi.
@@ -77,6 +78,7 @@ term.-->
             <gloss target="#pla2">
                 genere di piante erbacee o legnose, ricche di lattice e con infiorescenze particolari dette <distinct>ciazi</distinct>
             </gloss>
+            </p>
         </back>
     </text>
 </TEI>
