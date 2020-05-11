@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TEI SYSTEM "tei_all.dtd">
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI>
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -17,99 +17,107 @@
                 <bibl>The writers of Dubliners, by James Joyce</bibl>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <schemaSpec ident="MyCustomization">
+                <moduleRef key="tei"/>
+                <moduleRef key="header"/>
+                <moduleRef key="textstructure"/>
+                <moduleRef key="core"/>
+            </schemaSpec>
+        </encodingDesc>
     </teiHeader>
-    <encodingDesc>
-        <schemaSpec ident="MyCustomization">
-            <moduleRef key="tei"/>
-            <moduleRef key="header"/>
-            <moduleRef key="textstructure"/>
-            <moduleRef key="core"/>
-        </schemaSpec>
-    </encodingDesc>
+
     <text xml:lang="en">
 <!--ESERCIZIO PAG. 73-117: Marcare un testo plain text di circa 3000 caratteri a
 piacere.-->
-        <div n="ch1" type="chapter">
-            <p>
+        <body>
+            <div n="ch1" type="chapter">
             <head>THE SISTERS</head>
-                There was no hope for him this time: it was the third stroke. Night
-                after night I had passed the house (it was vacation time) and studied
-                the lighted square of window: and night after night I had found it
-                lighted in the same way, faintly and evenly. If he was dead, I thought,
-                I would see the reflection of candles on the darkened blind for I knew
-                that two candles must be set at the head of a corpse. He had often said
-                to me: <q>“I am not long for this world,”</q> and I had thought his words
-                idle. Now I knew they were true. Every night as I gazed up at the
-                window I said softly to myself the word paralysis. It had always
-                sounded strangely in my ears, like the word gnomon in the Euclid and
-                the word simony in the Catechism. But now it sounded to me like the
-                name of some maleficent and sinful being. It filled me with fear, and
-                yet I longed to be nearer to it and to look upon its deadly work.</p>
-                            <p>
-                <hi rend="italic">Old Cotter</hi> was sitting at the fire, smoking, when I came downstairs to
-                supper. While my aunt was ladling out my stirabout he said, as if
-                returning to some former remark of his:
-                <q>“No, I wouldn’t say he was exactly ... but there was something queer
-                ... there was something uncanny about him. I’ll tell you my
-                opinion....”</q>
-                He began to puff at his pipe, no doubt arranging his opinion in his
-                mind. Tiresome old fool! When we knew him first he used to be rather
-                interesting, talking of faints and worms; but I soon grew tired of him
-                and his endless stories about the distillery.
-                <q>“I have my own theory about it,” he said. “I think it was one of those
-                ... peculiar cases.... But it’s hard to say....”</q>
-                He began to puff again at his pipe without giving us his theory. My
-                uncle saw me staring and said to me:
-                “Well, so your old friend is gone, you’ll be sorry to hear.”
-                “Who?” said I.
-                <q>“Father Flynn.”</q>
-                <q>“Is he dead?”</q>
-                <q>“Mr Cotter here has just told us. He was passing by the house.”</q>
-                I knew that I was under observation so I continued eating as if the
-                news had not interested me. My uncle explained to old Cotter.
-                <q>“The youngster and he were great friends. The old chap taught him a
-                great deal, mind you; and they say he had a great wish for him.”</q>
-                <q>“God have mercy on his soul,”</q> said my aunt piously.</p>
-                        <p><pb n="1"/>
-                Old Cotter looked at me for a while. I felt that his little beady black
-                eyes were examining me but I would not satisfy him by looking up from
-                my plate. He returned to his pipe and finally spat rudely into the
-                grate.
-                <q>“I wouldn’t like children of mine,” he said, “to have too much to say
-                to a man like that.”</q>
-                <q>“How do you mean, Mr Cotter?”</q> asked my aunt.
-                <q>“What I mean is,”</q> said old Cotter, <q>“it’s bad for children. My idea is:
-                let a young lad run about and play with young lads of his own age and
-                not be.... Am I right, Jack?”</q>
-                <q>“That’s my principle, too,”</q> said my uncle. <q>“Let him learn to box his
-                corner. That’s what I’m always saying to that Rosicrucian there: take
-                exercise. Why, when I was a nipper every morning of my life I had a
-                cold bath, winter and summer. And that’s what stands to me now.
-                Education is all very fine and large.... Mr Cotter might take a pick of
-                that leg mutton,”</q> he added to my aunt.
-                <q>“No, no, not for me,”</q> said old Cotter.
-                My aunt brought the dish from the safe and put it on the table.
-                <q>“But why do you think it’s not good for children, Mr Cotter?”</q> she
-                asked.
-                <q>“It’s bad for children,”</q> said old Cotter, <q>“because their minds are so
-                impressionable. When children see things like that, you know, it has an
-                effect....”</q>
-                I crammed my mouth with stirabout for fear I might give utterance to my
-                anger. Tiresome old red-nosed imbecile!</p>
-                        <p>
-                It was late when I fell asleep. Though I was angry with old Cotter for
-                alluding to me as a child, I puzzled my head to extract meaning from
-                his unfinished sentences. In the dark of my room I imagined that I saw
-                again the heavy grey face of the paralytic. I drew the blankets over my
-                head and tried to think of Christmas. But the grey face still followed
-                me. It murmured; and I understood that it desired to confess something.
-                I felt my soul receding into some pleasant and vicious region; and
-                there again I found it waiting for me. It began to confess to me in a
-                murmuring voice and I wondered why it smiled continually and why the
-                lips were so moist with spittle. But then I remembered that it had died
-                of paralysis and I felt that I too was smiling feebly as if to absolve
-                the <distinct>simoniac</distinct> of his sin.
-                            </p><pb n="2"/>
-        </div>
+                <p>
+                
+                    There was no hope for him this time: it was the third stroke. Night
+                    after night I had passed the house (it was vacation time) and studied
+                    the lighted square of window: and night after night I had found it
+                    lighted in the same way, faintly and evenly. If he was dead, I thought,
+                    I would see the reflection of candles on the darkened blind for I knew
+                    that two candles must be set at the head of a corpse. He had often said
+                    to me: <q>“I am not long for this world,”</q> and I had thought his words
+                    idle. Now I knew they were true. Every night as I gazed up at the
+                    window I said softly to myself the word paralysis. It had always
+                    sounded strangely in my ears, like the word gnomon in the Euclid and
+                    the word simony in the Catechism. But now it sounded to me like the
+                    name of some maleficent and sinful being. It filled me with fear, and
+                    yet I longed to be nearer to it and to look upon its deadly work.
+                </p>
+                <p>
+                    <hi rend="italic">Old Cotter</hi> was sitting at the fire, smoking, when I came downstairs to
+                    supper. While my aunt was ladling out my stirabout he said, as if
+                    returning to some former remark of his:
+                    <q>“No, I wouldn’t say he was exactly ... but there was something queer
+                    ... there was something uncanny about him. I’ll tell you my
+                    opinion....”</q>
+                    He began to puff at his pipe, no doubt arranging his opinion in his
+                    mind. Tiresome old fool! When we knew him first he used to be rather
+                    interesting, talking of faints and worms; but I soon grew tired of him
+                    and his endless stories about the distillery.
+                    <q>“I have my own theory about it,” he said. “I think it was one of those
+                    ... peculiar cases.... But it’s hard to say....”</q>
+                    He began to puff again at his pipe without giving us his theory. My
+                    uncle saw me staring and said to me:
+                    “Well, so your old friend is gone, you’ll be sorry to hear.”
+                    “Who?” said I.
+                    <q>“Father Flynn.”</q>
+                    <q>“Is he dead?”</q>
+                    <q>“Mr Cotter here has just told us. He was passing by the house.”</q>
+                    I knew that I was under observation so I continued eating as if the
+                    news had not interested me. My uncle explained to old Cotter.
+                    <q>“The youngster and he were great friends. The old chap taught him a
+                    great deal, mind you; and they say he had a great wish for him.”</q>
+                    <q>“God have mercy on his soul,”</q> said my aunt piously.<pb n="1"/>
+                </p>
+                <p>
+                    Old Cotter looked at me for a while. I felt that his little beady black
+                    eyes were examining me but I would not satisfy him by looking up from
+                    my plate. He returned to his pipe and finally spat rudely into the
+                    grate.
+                    <q>“I wouldn’t like children of mine,” he said, “to have too much to say
+                    to a man like that.”</q>
+                    <q>“How do you mean, Mr Cotter?”</q> asked my aunt.
+                    <q>“What I mean is,”</q> said old Cotter, <q>“it’s bad for children. My idea is:
+                    let a young lad run about and play with young lads of his own age and
+                    not be.... Am I right, Jack?”</q>
+                    <q>“That’s my principle, too,”</q> said my uncle. <q>“Let him learn to box his
+                    corner. That’s what I’m always saying to that Rosicrucian there: take
+                    exercise. Why, when I was a nipper every morning of my life I had a
+                    cold bath, winter and summer. And that’s what stands to me now.
+                    Education is all very fine and large.... Mr Cotter might take a pick of
+                    that leg mutton,”</q> he added to my aunt.
+                    <q>“No, no, not for me,”</q> said old Cotter.
+                    My aunt brought the dish from the safe and put it on the table.
+                    <q>“But why do you think it’s not good for children, Mr Cotter?”</q> she
+                    asked.
+                    <q>“It’s bad for children,”</q> said old Cotter, <q>“because their minds are so
+                    impressionable. When children see things like that, you know, it has an
+                    effect....”</q>
+                    I crammed my mouth with stirabout for fear I might give utterance to my
+                    anger. Tiresome old red-nosed imbecile!
+                </p>
+                <p>
+                    It was late when I fell asleep. Though I was angry with old Cotter for
+                    alluding to me as a child, I puzzled my head to extract meaning from
+                    his unfinished sentences. In the dark of my room I imagined that I saw
+                    again the heavy grey face of the paralytic. I drew the blankets over my
+                    head and tried to think of Christmas. But the grey face still followed
+                    me. It murmured; and I understood that it desired to confess something.
+                    I felt my soul receding into some pleasant and vicious region; and
+                    there again I found it waiting for me. It began to confess to me in a
+                    murmuring voice and I wondered why it smiled continually and why the
+                    lips were so moist with spittle. But then I remembered that it had died
+                    of paralysis and I felt that I too was smiling feebly as if to absolve
+                    the <distinct>simoniac</distinct> of his sin.
+                                <pb n="2"/>
+                </p>
+            </div>
+        </body>
     </text>
 </TEI>
