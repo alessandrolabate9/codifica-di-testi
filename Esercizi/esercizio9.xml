@@ -17,13 +17,19 @@
                 <bibl>Grazia Deledda, Vita e Opere</bibl>
             </sourceDesc>
         </fileDesc>
+        <schemaSpec ident="MyCustomization">
+                <moduleRef key="tei"/>
+                <moduleRef key="header"/>
+                <moduleRef key="textstructure"/>
+                <moduleRef key="core"/>
+        </schemaSpec>
     </teiHeader>
     <text xml:lang="it">
 <!--ESERCIZIO PAG. 141: Marcare un testo a piacere e utilizzare puntatori, note, lista, glossario marcare nomi, rs,
 term.-->
         <front>
                 <p>    
-                    <name>Grazia Deledda</name> nasce a <rs type="place">Nuoro</rs> il <date>27 settembre 1871</date>. Frequenta solo le scuole elementari, ma l’ambiente familiare nel quale cresce le consente 
+                    <name>Grazia Deledda</name> nasce a <rs type="place">Nuoro</rs> il <date when="1871-09-27">27 settembre 1871</date>. Frequenta solo le scuole elementari, ma l’ambiente familiare nel quale cresce le consente 
                     di studiare l’italiano, il francese e di coltivare i suoi interessi per la cultura. Appassionata lettrice, da giovane inizia a scrivere racconti. 
                     Quando si parla di <rs type="person">Deledda</rs>, il collegamento più immediato è quasi sempre con Canne al vento<ptr target="#CV"/>, pubblicato per la prima volta nel <num>1913</num>.
                     È considerato la sua opera più celebre ed è di certo il romanzo che racchiude in sé tutti i temi che hanno caratterizzato l’opera della scrittrice.
