@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Vincenzo Bellini a destinatario sconosciuto, in Parigi, 23 agosto 1833</title>
+                <author ref="../progetto/TEI-ListPerson.xml#VB">Vincenzo Bellini</author>
+                <respStmt>
+                    <resp>compiled by</resp>
+                    <name>Alessandro Labate</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher />
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
+				</availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Vincenzo Bellini, Lettera </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <schemaSpec ident="MyCustomization">
+                <moduleRef key="tei"/>
+                <moduleRef key="header"/>
+                <moduleRef key="textstructure"/>
+                <moduleRef key="core"/>
+            </schemaSpec>
+        </encodingDesc>
+    </teiHeader>
+    <text type="letter" n="LL1.12">
+<!--ESERCIZIO PAG. 46: Trascrivere e marcare un frammento di lettera di Bellini
+Lettera scelta: 1.12-->
+        <front>
+            <pb n="1" xml:id="LL1.12_0001" facs="#LL1.12_0001"/> 
+        </front>
+
+        <body xml:lang="it">
+            <p>
+                <w>Mi</w> 
+                <hi rend="underline">pare impossibile</hi>
+                <pc type="exclamative">!</pc>
+                <w>Mi</w> 
+                <hi rend="underline">spiego</hi>
+                <pc type="interrogative">?</pc> 
+                Già farai pel raccomandato dei qui nostri amici, 
+                ciò che hai fatto 
+                <add place="above">mio caro <rs type="person">Titta</rs>
+                </add> 
+                per 
+                <distinct>gl’istessi</distinct> 
+                <gap reason="illegible" extent="unknown"/>
+                : non è vero
+                <pc type="interrogative">?</pc>
+            </p>
+        </body>
+
+        <back>
+            <p>Addio mio Zerbino</p>
+            <!--<div type="bibliography">
+                        <listBibl xml:id="LL1.12_bibliography">
+                            <head>Bibliography of the letter LL1.12 </head>
+                            <bibl xml:id="Neri2005">
+                                <ref target="../progetto/TEI-ListBibl.xml#Neri2005">
+                                    <author>Neri</author>
+                                    <date when="2005">2005</date>
+                                    <citedRange unit="page">264</citedRange>
+                                </ref>
+                            </bibl>
+                        </listBibl>
+            
+            </div>
+            -->
+        </back>
+    </text>
+</TEI>
