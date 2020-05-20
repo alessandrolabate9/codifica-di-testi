@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TEI SYSTEM "tei_all.dtd">
 
+<!--ESERCIZIO 11: Codificare lettera o cartolina utilizzando il tagset facsimile e il
+collegamento completo testo-immagine -->
 <TEI>
     <teiHeader>
         <fileDesc>
